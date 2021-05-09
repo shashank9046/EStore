@@ -1,14 +1,21 @@
-import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { MDBCol, MDBContainer, MDBRow, MDBFooter } from 'mdbreact'
+import { Link } from 'react-router-dom'
 
 const FooterPagePro = () => {
   return (
-    <MDBFooter color="blue-grey" className="page-footer font-small lighten-5 pt-0">
-      <div style={{ backgroundColor: "#21d192" }}>
+    <MDBFooter
+      color="blue-grey"
+      className="page-footer font-small lighten-5 pt-0"
+    >
+      <div style={{ backgroundColor: '#21d192' }}>
         <MDBContainer>
           <MDBRow className="py-4 d-flex align-items-center">
-            <MDBCol md="6" lg="5" className="text-center text-md-left mb-4 mb-md-0">
+            <MDBCol
+              md="6"
+              lg="5"
+              className="text-center text-md-left mb-4 mb-md-0"
+            >
               <h6 className="mb-0 white-text">
                 Get connected with us on social networks!
               </h6>
@@ -37,18 +44,27 @@ const FooterPagePro = () => {
         <MDBRow className="mt-3">
           <MDBCol md="3" lg="4" xl="3" className="mb-4 dark-grey-text">
             <h6 className="text-uppercase font-weight-bold">
-              <strong>AwareWeGo</strong>
+              <strong>EStore</strong>
             </h6>
-            <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
+            <hr
+              className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+              style={{ width: '60px' }}
+            />
             <p>
-            An effective Agric-E-commerce solution that extend business by increasing opportunities with customers, suppliers and other farms & personalized services to individuals who visit the site more easily than larger farms.
+              An effective Agric-E-commerce solution that extend business by
+              increasing opportunities with customers, suppliers and other farms
+              & personalized services to individuals who visit the site more
+              easily than larger farms.
             </p>
           </MDBCol>
           <MDBCol md="2" lg="2" xl="2" className="mb-4 dark-grey-text">
             <h6 className="text-uppercase font-weight-bold">
               <strong>Products</strong>
             </h6>
-            <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
+            <hr
+              className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+              style={{ width: '60px' }}
+            />
             <p>
               <Link to="./shop" className="dark-grey-text">
                 Vegetables & Fruit
@@ -74,7 +90,10 @@ const FooterPagePro = () => {
             <h6 className="text-uppercase font-weight-bold">
               <strong>Useful links</strong>
             </h6>
-            <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
+            <hr
+              className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+              style={{ width: '60px' }}
+            />
             <p>
               <Link to="./../user/dashboard" className="dark-grey-text">
                 Your Account
@@ -100,12 +119,15 @@ const FooterPagePro = () => {
             <h6 className="text-uppercase font-weight-bold">
               <strong>Contact</strong>
             </h6>
-            <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
+            <hr
+              className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+              style={{ width: '60px' }}
+            />
             <p>
-              <i className="fa fa-home mr-3" /> Gorakhpur, UP 274203, India
+              <i className="fa fa-home mr-3" /> Kanpur, UP 208026, India
             </p>
             <p>
-              <i className="fa fa-envelope mr-3" /> info@awarewego.com
+              <i className="fa fa-envelope mr-3" /> info@estore.com
             </p>
             <p>
               <i className="fa fa-phone mr-3" /> + 01 234 567 88
@@ -118,12 +140,12 @@ const FooterPagePro = () => {
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright:{" "}
+          &copy; {new Date().getFullYear()} Copyright:{' '}
           <Link to="https://github.com/shsarv"> www.awarewego.com</Link>
         </MDBContainer>
       </div>
     </MDBFooter>
-  );
+  )
 }
 
-export default FooterPagePro;
+export default FooterPagePro
