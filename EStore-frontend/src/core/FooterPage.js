@@ -141,7 +141,7 @@ const FooterPagePro = () => {
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright:{' '}
-          <Link to="https://github.com/shsarv"> www.awarewego.com</Link>
+          <Link to="#"> www.estore.com</Link>
         </MDBContainer>
       </div>
     </MDBFooter>
