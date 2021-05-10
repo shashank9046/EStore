@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app",
-    "server": "nodemon app"
+    "app": "nodemon app"
   },
   "engines": {
     "node": "12.18.3"
